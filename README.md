@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  🇮🇳 <a href="docs/GUIDE_HINDI.md"><b>Hindi / Hinglish guide yahan padhein</b></a>
+  🇮🇳 <a href="docs/GUIDE_HINDI.md"><b></b></a>
 </p>
 
 ---
