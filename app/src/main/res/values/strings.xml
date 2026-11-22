@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StickerBridge</string>
+    <string name="tagline">Telegram sticker packs → WhatsApp</string>
+    <string name="bot_token">Telegram bot token</string>
+    <string name="bot_token_hint">Free from @BotFather (tap ? for steps)</string>
+    <string name="pack_link">Sticker pack link</string>
+    <string name="pack_link_hint">https://t.me/addstickers/…</string>
+    <string name="include_video">Include video stickers (experimental, background may turn black)</string>
+    <string name="import_button">Import pack</string>
+    <string name="your_packs">Your packs</string>
+    <string name="no_packs">No packs yet. Paste a Telegram sticker link above.</string>
+    <string name="add_to_whatsapp">Add to WhatsApp</string>
+    <string name="delete">Delete</string>
+    <string name="delete_confirm">Delete \"%1$s\" from this app?</string>
+    <string name="pack_info_static">%1$d stickers</string>
+    <string name="pack_info_animated">%1$d animated stickers</string>
+    <string name="err_token">Enter your bot token</string>
+    <string name="err_link">Enter a valid t.me/addstickers/… link</string>
+    <string name="import_done">Done! %1$d stickers saved in %2$d pack(s). Tap \"Add to WhatsApp\" below.</string>
+    <string name="import_skipped">%1$d sticker(s) skipped (unsupported or too big).</string>
+    <string name="import_failed">Import failed: %1$s</string>
+    <string name="added_ok">Pack added to WhatsApp 🎉</string>
+    <string name="whatsapp_rejected">WhatsApp rejected the pack</string>
+    <string name="no_whatsapp">WhatsApp is not installed</string>
+    <string name="choose_whatsapp">Add to which app?</string>
+    <string name="whatsapp_open_failed">Could not open WhatsApp. Please update WhatsApp.</string>
+    <string name="help">Help</string>
+    <string name="help_title">How to use</string>
+    <string name="help_text">1. Bot token (one time only)\n• Open Telegram and search @BotFather\n• Send /newbot, choose any name and a username ending in \"bot\"\n• BotFather replies with a token like 123456:ABC-xyz… Copy and paste it here.\n\n2. Pack link\n• In Telegram open a sticker pack → ⋮ → Share / Copy link\n• Paste it here (or share it directly to StickerBridge)\n\n3. Tap Import, then \"Add to WhatsApp\".\n\nNotes\n• WhatsApp allows max 30 stickers per pack, so big packs are split.\n• Static and animated stickers go into separate packs (WhatsApp rule).\n• Your token stays on your phone and is only sent to api.telegram.org.</string>
+</resources>
