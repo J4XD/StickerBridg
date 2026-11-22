@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="200" viewBox="0 0 960 200" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .box{fill:#F5F9FF;stroke:#1E88E5;stroke-width:2}
+    .t{font-size:20px;font-weight:700;fill:#0D47A1}
+    .s{font-size:15px;fill:#455A64}
+    @media (prefers-color-scheme: dark){.box{fill:#0D1B2A;stroke:#64B5F6}.t{fill:#90CAF9}.s{fill:#B0BEC5}}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" markerWidth="4" markerHeight="4" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10z" fill="#25D366"/></marker></defs>
+  <rect class="box" x="10" y="40" width="200" height="120" rx="16"/>
+  <text class="t" x="110" y="90" text-anchor="middle">1. Paste link</text>
+  <text class="s" x="110" y="118" text-anchor="middle">t.me/addstickers/…</text>
+  <rect class="box" x="255" y="40" width="200" height="120" rx="16"/>
+  <text class="t" x="355" y="90" text-anchor="middle">2. Download</text>
+  <text class="s" x="355" y="118" text-anchor="middle">Telegram Bot API</text>
+  <rect class="box" x="500" y="40" width="200" height="120" rx="16"/>
+  <text class="t" x="600" y="90" text-anchor="middle">3. Convert</text>
+  <text class="s" x="600" y="118" text-anchor="middle">512×512 WebP, on phone</text>
+  <rect class="box" x="745" y="40" width="200" height="120" rx="16"/>
+  <text class="t" x="845" y="90" text-anchor="middle">4. Add</text>
+  <text class="s" x="845" y="118" text-anchor="middle">to WhatsApp 🎉</text>
+  <line x1="212" y1="100" x2="250" y2="100" stroke="#25D366" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="457" y1="100" x2="495" y2="100" stroke="#25D366" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="702" y1="100" x2="740" y2="100" stroke="#25D366" stroke-width="3" marker-end="url(#a)"/>
+</svg>

@@ -1,0 +1,38 @@
+name: 🐞 Bug report
+description: Something isn't working
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe the problem and include the exact error message if there is one.
+    validations:
+      required: true
+  - type: input
+    id: pack
+    attributes:
+      label: Sticker pack link
+      placeholder: https://t.me/addstickers/...
+  - type: input
+    id: device
+    attributes:
+      label: Phone model and Android version
+      placeholder: e.g. Redmi Note 12, Android 14
+    validations:
+      required: true
+  - type: input
+    id: whatsapp
+    attributes:
+      label: WhatsApp version
+      placeholder: WhatsApp → Settings → Help → App info
+  - type: input
+    id: app
+    attributes:
+      label: StickerBridge version
+      placeholder: e.g. v1.0.0
+  - type: textarea
+    id: screens
+    attributes:
+      label: Screenshots
+      description: Drag and drop images here.
