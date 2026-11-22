@@ -3,7 +3,7 @@
 Thanks for helping! 🙌
 
 ## Reporting bugs
-Use the **[bug report template](https://github.com/J4XD/StickerBridge/issues/new/choose)**. Please include:
+Use the **[bug report template](https://github.com/J4XD/StickerBridg/issues/new/choose)**. Please include:
 - your Android version and phone model
 - the WhatsApp version
 - the sticker pack link

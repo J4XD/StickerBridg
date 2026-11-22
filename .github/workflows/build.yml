@@ -44,6 +44,8 @@ jobs:
           echo "VERSION=$VERSION" >> "$GITHUB_ENV"
           mkdir -p dist
           cp app/build/outputs/apk/release/app-release.apk "dist/StickerBridge-v$VERSION.apk"
+          # fixed name so .../releases/latest/download/StickerBridge.apk always works
+          cp app/build/outputs/apk/release/app-release.apk dist/StickerBridge.apk
 
       - uses: actions/upload-artifact@v4
         with:
@@ -63,7 +65,7 @@ jobs:
           make_latest: true
           body: |
             ## 📥 Install
-            1. Download **StickerBridge-v${{ env.VERSION }}.apk** below.
+            1. Download **StickerBridge.apk** below (open this page on your phone).
             2. Open it on your Android phone and allow "Install unknown apps" if asked.
             3. Follow the [guide](https://github.com/${{ github.repository }}#-how-to-use) ([Hindi guide](https://github.com/${{ github.repository }}/blob/main/docs/GUIDE_HINDI.md)).
           generate_release_notes: true

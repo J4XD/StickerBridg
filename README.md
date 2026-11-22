@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/J4XD/StickerBridge/releases/latest"><img src="https://img.shields.io/github/v/release/J4XD/StickerBridge?style=for-the-badge&color=25D366&label=Download%20APK" alt="Download APK"></a>
-  <a href="https://github.com/J4XD/StickerBridge/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/J4XD/StickerBridge/build.yml?style=for-the-badge&label=build" alt="Build status"></a>
+  <a href="https://github.com/J4XD/StickerBridg/releases/latest/download/StickerBridge.apk"><img src="https://img.shields.io/github/v/release/J4XD/StickerBridg?style=for-the-badge&color=25D366&label=Download%20APK" alt="Download APK"></a>
+  <a href="https://github.com/J4XD/StickerBridg/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/J4XD/StickerBridg/build.yml?style=for-the-badge&label=build" alt="Build status"></a>
   <img src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android 7.0+">
   <img src="https://img.shields.io/badge/Kotlin-2.0-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/J4XD/StickerBridge?style=for-the-badge&color=1E88E5" alt="MIT License"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/J4XD/StickerBridg?style=for-the-badge&color=1E88E5" alt="MIT License"></a>
 </p>
 
 <p align="center">
@@ -46,7 +46,9 @@
 
 ## 📥 Download
 
-1. Go to **[Releases](https://github.com/J4XD/StickerBridge/releases/latest)** and download `StickerBridge-vX.Y.Z.apk`.
+<p align="center"><a href="https://github.com/J4XD/StickerBridg/releases/latest/download/StickerBridge.apk"><b>⬇️ Download StickerBridge.apk (latest)</b></a></p>
+
+1. Tap the link above on your phone. It downloads the APK directly. (All versions are on the [Releases](https://github.com/J4XD/StickerBridg/releases) page.)
 2. Open the file on your phone. If Android asks, allow **"Install unknown apps"** for your browser or file manager.
 3. Tap **Install**.
 
@@ -140,7 +142,7 @@ Yes, those links work too. Custom emoji are small (100×100), so they look a lit
 | `Bot token is invalid` | Copy the full token again from @BotFather, including the part before `:` |
 | `Sticker pack not found` | Check the link. The pack may have been deleted |
 | `WhatsApp is not installed` | Install or update WhatsApp from the Play Store |
-| WhatsApp shows *"There's a problem with this sticker pack"* | Update WhatsApp, then delete and re-import the pack. If it persists, [open an issue](https://github.com/J4XD/StickerBridge/issues/new/choose) with the pack link |
+| WhatsApp shows *"There's a problem with this sticker pack"* | Update WhatsApp, then delete and re-import the pack. If it persists, [open an issue](https://github.com/J4XD/StickerBridg/issues/new/choose) with the pack link |
 | Nothing happens on import / network error | Check your internet. Telegram may be blocked on your network, so try mobile data or Wi‑Fi |
 | Can't install an update | Uninstall the old version first (see *signing* below) |
 
@@ -149,7 +151,7 @@ Yes, those links work too. Custom emoji are small (100×100), so they look a lit
 Requirements: **JDK 17+** and the **Android SDK** (Android Studio includes both).
 
 ```bash
-git clone https://github.com/J4XD/StickerBridge.git
+git clone https://github.com/J4XD/StickerBridg.git
 cd StickerBridge
 ./gradlew assembleRelease
 # → app/build/outputs/apk/release/app-release.apk
