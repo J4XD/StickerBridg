@@ -158,10 +158,8 @@ cd StickerBridge
 ### Automatic builds (GitHub Actions)
 
 - **Every push to `main`:** the APK is attached to the workflow run under *Actions → run → Artifacts*.
-- **Every tag `v*`:** a GitHub Release is published with the APK:
-  ```bash
-  git tag v1.0.1 && git push origin v1.0.1
-  ```
+- **New release:** bump `versionName` (and `versionCode`) in `app/build.gradle.kts` and push to `main`.
+  The workflow publishes the release `v<versionName>` with the APK attached.
 
 ### Signing with your own key (recommended)
 
